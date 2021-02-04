@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: wheat;
+}
+
+ul li{
+      list-style-type: none;
+      float: left;
+      margin: 12px 22px;   
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    
+    
+}
+ul li a:hover{
+    color: black;
+    
+}
+h1{
+    text-align: center;
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.justify{
+    text-align: justify;
+}
+.green{
+    height: 250px;
+    width: 400px;
+    background-color: green;
+    position: absolute;
+    margin-left: 350px;
+    
+}
+.red{
+    height: 150px;
+    width: 125px;
+    border-radius: 100%;
+    background-color: red;
+    position: relative;
+    margin-left: 480px;
+    margin-top: 70px;
+    
+
+}
+.rock{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 20px;
+    border:1px solid black;
+    margin: 20px;
+    float: left;
+    color: red;
+}
+.rock:hover{
+    background-color:orange;
+  transition: 1s;
+
+}
+.float{
+    margin-left: 200px;
+}
+.alada{
+    font-size: 40px;
+    
+}
+.type{
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    float: left;
+}
+.type1{
+    overflow: hidden;
+}
+.type2{
+    overflow: scroll;
+}
+.type3{
+    overflow: auto;
+}
+.overflow:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.test{
+    visibility: hidden;
+
+}
+.visibility{
+    margin-left: 500px;
+}
+.trans img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 60px;
+}
+ .img-1{
+     transform: rotate(30deg);
+ }
+ .img-2{
+     transform: skew(30deg);
+ }
+ .img-3{
+     transform: scale(0.4,0.6);
+ }
+.pseudo{
+    margin-left: 300px;
+    list-style-type: none;
+    
+}
+.dd{
+    font-size: 30px;
+}
+.dd::after{
+    content: "-is my Favourite Country";
+    color: orangered;
+    font-size: 35px;
+}
+.dd::before{
+    content: "The- ";
+    color: blue;
+    font-size: 35px;
+
+}
+.nth{
+    height: 400px;
+    width: 40%; 
+    background-color:rgb(185, 204, 198);
+    float: left;
+    margin: 10px;
+}
+.bb, .abc{
+    text-align: center;
+    font-size: 30px;
+}
+.bb:nth-child(odd){
+    color: rgb(255, 0, 0);
+}
+.abc:nth-child(even){
+    color: rgb(255, 255, 255);
+}
